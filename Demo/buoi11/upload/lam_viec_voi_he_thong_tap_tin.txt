@@ -1,0 +1,24 @@
+ 1. Đọc nội dung của một tập tin
+ Cú pháp:
+    file_get_contents()
+
+ 2. Ghi nội dung vào một tập tin
+ Cú pháp:
+    file_put_contents()
+*Nếu chưa có file thì sẽ tự tạo file và ghi nội dung vào
+
+3. Kiểm tra sự tồn tại của file
+Cú pháp:
+    file_exist();
+
+4. Xóa một tập tin của file
+Cú pháp:
+    unlink();
+
+5. Đọc danh sách các file trong một thư mục
+Cú pháp:
+    scandir();
+
+6. Di chuyển và đổi tên file
+Cú pháp: 
+    rename('địa chỉ file cũ', 'địa chỉ file mới');

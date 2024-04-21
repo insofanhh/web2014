@@ -1,0 +1,1 @@
+ 2. Ghi nội dung vào một tập tin: file_put_contents()
